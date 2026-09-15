@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 10px;
+}
+
+.parent {
+    background-color: rgb(78, 109, 119);
+    border: 2px solid rgb(41, 220, 252);
+}
+
+.child ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.child a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hover {
+    display: none;
+}
+
+.child .drop:hover .hover {
+    display: block;
+    position: absolute;
+    background-color: darkslategray;
+    align-items: center;
+}
+
+.er {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+}
+
+.er li:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
